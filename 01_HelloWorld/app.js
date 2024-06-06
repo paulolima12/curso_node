@@ -1,9 +1,8 @@
-console.log('HELLO WORLD')
-
+console.log('HELLO WORLD!!')
 var n1 = 10
-var n2 =20
+var n2 = 20
 
-function somar(a,b){
+function somar(a, b){
     return a+b
 }
 

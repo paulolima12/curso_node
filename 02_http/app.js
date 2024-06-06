@@ -1,9 +1,10 @@
-//SOLICITAR UM MÓDULO INTERNO DO NODE CHAMADO http
+// arquivo principal (app.js)
+//solicitar um modulo interno no NODE chamado http
 var http = require('http')
 
-//Abrindo um servidor http
+//abrindo um servidor http
 http.createServer(function(req,res){
-    res.end("Oi ETEC")
+    res.end("Hello ETEC MCM E O TI HAHA E O TI HAHAHA")
 }).listen(8081)
 
-console.log('Servidor rodando...')
+console.log('servidor rodando...')
